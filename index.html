@@ -105,78 +105,90 @@
     <!-- MAIN VIEW -->
     <div id="main-view" class="active-view">
         
-        <!-- Hero Section -->
-        <section class="relative pt-40 md:pt-44 lg:pt-48 pb-20 lg:pb-32 hero-pattern text-white overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90"></div>
-            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <div class="fade-in-up">
-                        <div class="inline-flex flex-wrap items-center justify-center px-3 py-1 rounded-full bg-brand-primary/20 border border-brand-primary/30 text-brand-accent text-sm font-semibold mb-6 text-center">
-                            <span class="flex h-2 w-2 rounded-full bg-brand-accent mr-2 animate-pulse"></span>
-                            Strategic Enablement • AI • Creative Systems
+      <!-- Hero Section -->
+<section class="relative pt-28 sm:pt-40 lg:pt-48 pb-20 lg:pb-32 hero-pattern text-white">
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="fade-in-up">
+                <!-- Tagline Pill -->
+                <div class="inline-flex flex-wrap items-center justify-center max-w-full px-3 py-1 rounded-full bg-brand-primary/20 border border-brand-primary/30 text-brand-accent text-xs sm:text-sm font-semibold mb-6 text-center leading-tight">
+                    <span class="flex h-2 w-2 rounded-full bg-brand-accent mr-2 animate-pulse"></span>
+                    Strategic Enablement • AI • Creative Systems
+                </div>
+
+                <!-- Headline -->
+                <h1 class="text-3xl sm:text-5xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                    Strategic Enablement &amp;
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">
+                        Creative Systems
+                    </span>
+                    that Move Revenue.
+                </h1>
+
+                <!-- Subtext -->
+                <p class="text-base sm:text-lg md:text-xl text-slate-300 mb-8 max-w-lg leading-relaxed">
+                    I'm Erez "EZ" Haimowicz. I build enablement programs, AI music, video stories, and assets that help teams learn faster, sell smarter, and feel something in the process.
+                </p>
+
+                <!-- Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button onclick="scrollToSection('portfolio')" class="px-8 py-4 bg-brand-primary text-white rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg hover:shadow-brand-primary/50 text-center">
+                        Explore Portfolio
+                    </button>
+                    <a href="Erez%20Haimowicz%20-%20Head%20of%20Enablement.pdf" target="_blank" class="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold hover:bg-white/20 transition text-center">
+                        <i class="fas fa-download mr-2"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+
+            <!-- Stats Card -->
+            <div class="relative lg:ml-auto fade-in-up delay-200 hidden lg:block">
+                <div class="relative w-full max-w-md aspect-square bg-gradient-to-tr from-brand-primary to-brand-accent rounded-2xl opacity-20 rotate-3 blur-2xl absolute inset-0"></div>
+                <div class="relative bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="h-12 w-12 rounded-full overflow-hidden bg-slate-600 flex items-center justify-center">
+                            <img src="https://raw.githubusercontent.com/Newbieisez/EZ-Enablement/main/headshot%202025.jpg" alt="EZ headshot" class="h-full w-full object-cover">
                         </div>
-                        <h1 class="text-5xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
-                            Strategic Enablement & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-primary">Creative Systems</span> that Move Revenue.
-                        </h1>
-                        <p class="text-xl text-slate-300 mb-8 max-w-lg leading-relaxed">
-                            I'm Erez "EZ" Haimowicz. I build enablement programs, AI music, video stories, and assets that help teams learn faster, sell smarter, and feel something in the process.
-                        </p>
-                        <div class="flex flex-col sm:flex-row gap-4">
-                            <button onclick="scrollToSection('portfolio')" class="px-8 py-4 bg-brand-primary text-white rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg hover:shadow-brand-primary/50 text-center">
-                                Explore Portfolio
-                            </button>
-                            <a href="Erez%20Haimowicz%20-%20Head%20of%20Enablement.pdf" target="_blank" class="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold hover:bg-white/20 transition text-center">
-                                <i class="fas fa-download mr-2"></i> Download Resume
-                            </a>
+                        <div>
+                            <h3 class="font-bold text-lg">Erez "EZ" Haimowicz</h3>
+                            <p class="text-slate-400 text-sm">Enablement Leader &amp; Creator</p>
                         </div>
                     </div>
-                    <div class="relative lg:ml-auto fade-in-up delay-200 hidden lg:block">
-                        <div class="relative w-full max-w-md aspect-square bg-gradient-to-tr from-brand-primary to-brand-accent rounded-2xl opacity-20 rotate-3 blur-2xl absolute inset-0"></div>
-                        <div class="relative bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500">
-                            <div class="flex items-center space-x-4 mb-6">
-                                <!-- Profile image -->
-                                <div class="h-12 w-12 rounded-full overflow-hidden bg-slate-600 flex items-center justify-center">
-                                    <img src="https://raw.githubusercontent.com/Newbieisez/EZ-Enablement/main/headshot%202025.jpg" alt="EZ headshot" class="h-full w-full object-cover">
-                                </div>
-                                <div>
-                                    <h3 class="font-bold text-lg">Erez "EZ" Haimowicz</h3>
-                                    <p class="text-slate-400 text-sm">Enablement Leader & Creator</p>
-                                </div>
-                            </div>
-                            <div class="space-y-4">
-                                <div class="flex justify-between items-end">
-                                    <span class="text-slate-400 text-sm">Ramp Time</span>
-                                    <span class="text-emerald-400 font-bold text-sm">-50% ▼</span>
-                                </div>
-                                <div class="w-full bg-slate-700 rounded-full h-2">
-                                    <div class="bg-emerald-400 h-2 rounded-full" style="width: 90%"></div>
-                                </div>
-                                
-                                <div class="flex justify-between items-end mt-4">
-                                    <span class="text-slate-400 text-sm">Tool Savings</span>
-                                    <span class="text-brand-accent font-bold text-sm">$700k+</span>
-                                </div>
-                                <div class="w-full bg-slate-700 rounded-full h-2">
-                                    <div class="bg-brand-accent h-2 rounded-full" style="width: 88%"></div>
-                                </div>
-                                
-                                <div class="flex justify-between items-end mt-4">
-                                    <span class="text-slate-400 text-sm">Revenue Influenced</span>
-                                    <span class="text-brand-primary font-bold text-sm">109M+</span>
-                                </div>
-                                <div class="w-full bg-slate-700 rounded-full h-2">
-                                    <div class="bg-brand-primary h-2 rounded-full" style="width: 92%"></div>
-                                </div>
-                            </div>
-                            <div class="mt-6 border-t border-slate-700 pt-4 text-xs text-slate-500">
-                                Portfolio spans: Sales & Partner Enablement • AI Music • Video • Systems & Assets
-                            </div>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-end">
+                            <span class="text-slate-400 text-sm">Ramp Time</span>
+                            <span class="text-emerald-400 font-bold text-sm">-50% ▼</span>
                         </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-emerald-400 h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+
+                        <div class="flex justify-between items-end mt-4">
+                            <span class="text-slate-400 text-sm">Tool Savings</span>
+                            <span class="text-brand-accent font-bold text-sm">$700k+</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-brand-accent h-2 rounded-full" style="width: 88%"></div>
+                        </div>
+
+                        <div class="flex justify-between items-end mt-4">
+                            <span class="text-slate-400 text-sm">Revenue Influenced</span>
+                            <span class="text-brand-primary font-bold text-sm">109M+</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-brand-primary h-2 rounded-full" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="mt-6 border-t border-slate-700 pt-4 text-xs text-slate-500">
+                        Portfolio spans: Sales &amp; Partner Enablement • AI Music • Video • Systems &amp; Assets
                     </div>
                 </div>
             </div>
-        </section>
-
+        </div>
+    </div>
+</section>
+        
         <!-- About -->
         <section id="about" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
