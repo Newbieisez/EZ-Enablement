@@ -28,6 +28,7 @@
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
+        html, body { margin: 0; padding: 0; }
         body { font-family: 'Inter', sans-serif; }
         .glass-nav {
             background: rgba(255, 255, 255, 0.9);
@@ -65,10 +66,10 @@
     <!-- Navigation -->
     <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+            <div class="flex justify-between items-center h-16 md:h-20">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="showHome()">
-                    <span class="text-2xl font-bold text-brand-dark tracking-tight">Making Enablement and Sales EZ<span class="text-brand-primary">.</span></span>
+                    <span class="text-2xl font-bold text-brand-dark tracking-tight">EZ<span class="text-brand-primary">.</span></span>
                 </div>
                 
                 <!-- Desktop Menu -->
@@ -103,7 +104,7 @@
     <div id="main-view" class="active-view">
         
         <!-- Hero Section -->
-        <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 hero-pattern text-white overflow-hidden">
+        <section class="relative pt-40 md:pt-44 lg:pt-48 pb-20 lg:pb-32 hero-pattern text-white overflow-hidden">
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90"></div>
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -463,9 +464,9 @@
                             <p class="text-slate-600 text-sm leading-relaxed">Architected role-based onboarding and certifications for SDRs, AEs, and partners with sequenced learning paths, simulations, and Slack nudges.</p>
                         </div>
                         <div class="px-6 pb-5 mt-auto">
-                            <ul class="text-sm text-slate-500 space-y-1 mb-4">
-                                <li>• 50% reduction in time-to-first-deal</li>
-                                <li>• Near-100% certification completion</li>
+                            <ul class="text-sm text-slate-500 space-y-1 mb-0">
+                                <li>• 50% reduction in onboarding times and 38% reduction in time-to-first-deal</li>
+                                <li>• 100% certification completion and 89% NPS scores on training</li>
                                 <li>• Embedded into manager coaching &amp; deal reviews</li>
                             </ul>
                         </div>
@@ -478,7 +479,7 @@
                             <p class="text-slate-600 text-sm leading-relaxed">Designed and rolled out MEDDPICC-infused GTM programs across segments, with live enablement, async content, and Salesforce-embedded guardrails.</p>
                         </div>
                         <div class="px-6 pb-5 mt-auto">
-                            <ul class="text-sm text-slate-500 space-y-1 mb-4">
+                            <ul class="text-sm text-slate-500 space-y-1 mb-0">
                                 <li>• Double-digit increase in enterprise conversion</li>
                                 <li>• MEDDPICC criteria mapped to stage progression</li>
                                 <li>• Repeatable deal review frameworks for managers</li>
@@ -493,7 +494,7 @@
                             <p class="text-slate-600 text-sm leading-relaxed">Audited overlapping GTM tools, consolidated redundant platforms, and rebuilt workflows in Gong, Highspot, and Salesforce.</p>
                         </div>
                         <div class="px-6 pb-5 mt-auto">
-                            <ul class="text-sm text-slate-500 space-y-1 mb-4">
+                            <ul class="text-sm text-slate-500 space-y-1 mb-0">
                                 <li>• $700K+ annual tooling savings</li>
                                 <li>• Higher adoption of core revenue tools</li>
                                 <li>• Cleaner reporting &amp; data confidence</li>
@@ -517,6 +518,7 @@
                                     <li>• Prompt-engineered for emotion, not just sounds</li>
                                     <li>• Built for sync, intros, and event openers</li>
                                 </ul>
+                                <a href="https://open.spotify.com/track/0W37DzqCrBDFOIU86vQuhz?si=0fad8ff920364f62" target="_blank" class="inline-flex items-center text-sm font-semibold text-brand-primary">Listen / View prompt breakdown<i class="fas fa-external-link-alt ml-2 text-xs"></i></a>
                             </div>
                         </article>
                         <!-- Track 2 -->
@@ -531,6 +533,7 @@
                                     <li>• Built for 2:30–4:30 min DJ-friendly formats</li>
                                     <li>• Clear creative system for repeatable output</li>
                                 </ul>
+                                <a href="https://open.spotify.com/album/7KQSa0kbyztwlIgz0956Ha?si=_sP0KpM_QXiWLDLZQLHYmQ" target="_blank" class="inline-flex items-center text-sm font-semibold text-brand-primary">Listen to the full album<i class="fas fa-external-link-alt ml-2 text-xs"></i></a>
                             </div>
                         </article>
                         <!-- Track 3 -->
@@ -545,6 +548,7 @@
                                     <li>• Session-specific intros &amp; loops</li>
                                     <li>• AI tools used to version and adapt themes</li>
                                 </ul>
+                                <a href="https://on.soundcloud.com/TwNgrs6iEuwLIlWSKm" target="_blank" class="inline-flex items-center text-sm font-semibold text-brand-primary">Hear sample cue<i class="fas fa-external-link-alt ml-2 text-xs"></i></a>
                             </div>
                         </article>
                     </div>
@@ -566,7 +570,7 @@
                                 <h3 class="text-xl font-bold text-slate-900 mb-3">
                                     Working with the partner ecosystem
                                 </h3>
-                                <p class="text-slate-600 text-sm leading-relaxed mb-3">
+                                <p class="text-slate-600 text-sm leading-relaxed mb-0">
                                     An explainer video that gives context on why working with the partner ecosystem is important, as well as how to engage and build trust with partners with mutual action plans.
                                 </p>
                             </div>
@@ -581,7 +585,7 @@
                             <div class="px-6 pt-5 pb-5">
                                 <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Demo Excellence</div>
                                 <h3 class="text-xl font-bold text-slate-900 mb-3">Explainer Video on High-Impact Demos</h3>
-                                <p class="text-slate-600 text-sm leading-relaxed mb-3">
+                                <p class="text-slate-600 text-sm leading-relaxed mb-0">
                                     An instructional explainer video that walks through demo best practices, from preparation to execution, and guides sales teams, SEs, partner SEs, and enablement professionals on how to deliver and enable consistently effective, outcome-driven demos.
                                 </p>
                             </div>
@@ -593,7 +597,7 @@
                             <div class="px-6 pt-5 pb-5">
                                 <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Product &amp; Demo Storytelling</div>
                                 <h3 class="text-xl font-bold text-slate-900 mb-3">Unified Demo &amp; Story Arc Concepts</h3>
-                                <p class="text-slate-600 text-sm leading-relaxed mb-3">Scripts and visuals created for unified platform demos that tie product capabilities back to real-world customer pains and outcomes.</p>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-0">Scripts and visuals created for unified platform demos that tie product capabilities back to real-world customer pains and outcomes.</p>
                             </div>
                         </article>
                     </div>
@@ -614,6 +618,7 @@
                                     <li>• Framework overview</li>
                                     <li>• Program templates &amp; scorecards</li>
                                 </ul>
+                                <a href="#" target="_blank" class="inline-flex items-center text-sm font-semibold text-brand-primary">View framework outline<i class="fas fa-external-link-alt ml-2 text-xs"></i></a>
                             </div>
                         </article>
                         <!-- Asset 2 -->
@@ -628,6 +633,7 @@
                                     <li>• Role-based 30/60/90 frameworks</li>
                                     <li>• Manager coaching checklists</li>
                                 </ul>
+                                <a href="#" target="_blank" class="inline-flex items-center text-sm font-semibold text-brand-primary">View template sample<i class="fas fa-external-link-alt ml-2 text-xs"></i></a>
                             </div>
                         </article>
                         <!-- Asset 3 -->
@@ -642,6 +648,7 @@
                                     <li>• KPI mapping to enablement programs</li>
                                     <li>• Executive-level summary views</li>
                                 </ul>
+                                <a href="#" target="_blank" class="inline-flex items-center text-sm font-semibold text-brand-primary">View dashboard concept<i class="fas fa-external-link-alt ml-2 text-xs"></i></a>
                             </div>
                         </article>
                     </div>
@@ -657,9 +664,9 @@
                         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Let’s Talk</h2>
                         <p class="text-lg text-slate-600 mb-6">If you’re looking for someone who can build enablement systems, create content, and bring creative energy through music and video, I’d love to connect.</p>
                         <ul class="space-y-3 text-slate-600 mb-8">
-                            <li class="flex items-center"><i class="fas fa-check-circle text-emerald-500 mr-3"></i>Strategic & hands-on enablement partnership</li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-emerald-500 mr-3"></i>Custom music & video support for GTM events</li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-emerald-500 mr-3"></i>Open to both full-time & advisory work</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-emerald-500 mr-3"></i>Strategic &amp; hands-on enablement partnership</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-emerald-500 mr-3"></i>Custom music &amp; video support for GTM events</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-emerald-500 mr-3"></i>Open to both full-time &amp; advisory work</li>
                         </ul>
                         <div class="space-y-2 text-sm text-slate-500">
                             <p><i class="fas fa-envelope mr-2 text-brand-primary"></i> ErezHaimowicz@gmail.com</p>
