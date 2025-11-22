@@ -131,8 +131,9 @@
                         <div class="relative w-full max-w-md aspect-square bg-gradient-to-tr from-brand-primary to-brand-accent rounded-2xl opacity-20 rotate-3 blur-2xl absolute inset-0"></div>
                         <div class="relative bg-slate-800 border border-slate-700 rounded-2xl p-8 shadow-2xl transform -rotate-2 hover:rotate-0 transition duration-500">
                             <div class="flex items-center space-x-4 mb-6">
-                                <div class="h-12 w-12 rounded-full bg-slate-600 flex items-center justify-center overflow-hidden">
-                                    <i class="fas fa-user text-slate-400 text-xl"></i>
+                                <!-- Profile image: replaced generic icon with headshot -->
+                                <div class="h-12 w-12 rounded-full overflow-hidden bg-slate-600 flex items-center justify-center">
+                                    <img src="https://raw.githubusercontent.com/Newbieisez/EZ-Enablement/main/headshot%202025.jpg" alt="EZ headshot" class="h-full w-full object-cover">
                                 </div>
                                 <div>
                                     <h3 class="font-bold text-lg">Erez "EZ" Haimowicz</h3>
@@ -157,8 +158,8 @@
                                 </div>
                                 
                                 <div class="flex justify-between items-end mt-4">
-                                    <span class="text-slate-400 text-sm">Revenue Influenced</span>
-                                    <span class="text-brand-primary font-bold text-sm">$109M+</span>
+                                    <span class="text-slate-400 text-sm">Rev. Influence</span>
+                                    <span class="text-brand-primary font-bold text-sm">$3.1M</span>
                                 </div>
                                 <div class="w-full bg-slate-700 rounded-full h-2">
                                     <div class="bg-brand-primary h-2 rounded-full" style="width: 92%"></div>
@@ -267,87 +268,137 @@
                     </div>
                     <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 mt-12 lg:mt-0">
                         <h3 class="text-xl font-bold mb-6 border-b border-slate-700 pb-4">The Tech Stack</h3>
-                        <div class="flex flex-wrap gap-3">
-                            <!-- CRM, Revenue Platforms & Intelligence -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Salesforce (CRM)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Gong (Revenue Intelligence & Call Coaching)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">6sense (ABM & Intent)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">ZoomInfo (Sales Intelligence & Data)</span>
-                            
-                            <!-- Sales Engagement, Prospecting & Account Strategy -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">LinkedIn Sales Navigator</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Clay.ai (Prospecting & Workflow Automation)</span>
-                            
-                            <!-- Enablement, LMS & Content Delivery Platforms -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Highspot (Sales Enablement)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Seismic (Enablement & LMS)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Allego (Enablement & LMS)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Thought Industries (Partner University LMS)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Articulate 360 / Rise 360 (eLearning Authoring)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Enablement Automation (Playbooks, Nudges, SSOT)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI-powered Content Governance (Tagging, QA, Versioning)</span>
-                            
-                            <!-- Digital Adoption & In-app Guidance -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">WalkMe (Digital Adoption Platform)</span>
-                            
-                            <!-- Communication, Collaboration & Knowledge Hubs -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Slack</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Zoom</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Loom (Async Video & Screen Recording)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">SharePoint</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Gmail</span>
-                            
-                            <!-- Data, Analytics & Reporting -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Google Sheets (Dashboards & ROI Models)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Tableau (Enablement & Revenue Dashboards)</span>
-                            
-                            <!-- Generative AI, LLMs & Research Assistants -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">OpenAI / ChatGPT</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Custom GPTs (Workflow-specific Assistants)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">DALL·E (Image Generation)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Gemini</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Claude</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Perplexity</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">NotebookLM</span>
-                            
-                            <!-- AI Video, Visual Storytelling & Demo Creation -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Google Veo / Veo 3 (Text-to-Video)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Runway Gen-3 Alpha (AI Video)</span>
-                            
-                            <!-- Design, Web & Content Creation -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Canva (Slides, Visuals, Brand Assets)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Canva AI (Bulk Create, Image & Video Assist)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Wix (Website Builder)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Adobe Creative Cloud (Photoshop, Illustrator, Premiere Pro)</span>
-                            
-                            <!-- Video & Multimedia Production -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Camtasia (Screen Recording & Video Editing)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Video Editing Tools (Storyboarding, Cuts, Audio Sync)</span>
-                            
-                            <!-- Project Management & Work Management -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Asana (Project & Task Management)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Airtable (Work Management & Automation)</span>
-                            
-                            <!-- Automation, Integrations & GTM Workflows -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Zapier (No-code Automation)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">n8n (Workflow Orchestration)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI Automation Tools (Cross-stack Workflow Automation)</span>
-                            
-                            <!-- AI Sales Tools -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Letter AI (AI Sales Messaging & Email Personalization)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI Sales Tools (Intent Scoring, Call Coaching, Email Personalization)</span>
-                            
-                            <!-- Learning Experience Design, Coaching & Micro-learning -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Micro-learning Production (Video & Voiceover)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">In-flow Coaching & Just-in-time Guidance (Slack, Salesforce)</span>
-                            
-                            <!-- Creative, Audio & Music Platforms -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI Music Labs (AI-assisted Music Creation)</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">SoundCloud (Publishing & Distribution)</span>
-                            
-                            <!-- Productivity & Office -->
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Microsoft Office Suite</span>
-                            <span class="px-4 py-2 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Google Workspace (Docs, Slides, Drive)</span>
+                        <!-- Restructured Tech Stack grouped by categories -->
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">CRM & Revenue Platforms</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Salesforce (CRM)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Gong (Revenue Intelligence & Call Coaching)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">6sense (ABM & Intent)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">ZoomInfo (Sales Intelligence & Data)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Sales Engagement & Prospecting</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">LinkedIn Sales Navigator</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Clay.ai (Prospecting & Workflow Automation)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Enablement & LMS</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Highspot (Sales Enablement)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Seismic (Enablement & LMS)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Allego (Enablement & LMS)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Thought Industries (Partner University LMS)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Articulate 360 / Rise 360 (eLearning Authoring)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Enablement Automation (Playbooks, Nudges, SSOT)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI-powered Content Governance (Tagging, QA, Versioning)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Digital Adoption</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">WalkMe (Digital Adoption Platform)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Communication & Collaboration</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Slack</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Zoom</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Loom (Async Video & Screen Recording)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">SharePoint</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Gmail</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Data, Analytics & Reporting</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Google Sheets (Dashboards & ROI Models)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Tableau (Enablement & Revenue Dashboards)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Generative AI & Research</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">OpenAI / ChatGPT</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Custom GPTs (Workflow-specific Assistants)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">DALL·E (Image Generation)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Gemini</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Claude</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Perplexity</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">NotebookLM</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">AI Video & Storytelling</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Google Veo / Veo 3 (Text-to-Video)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Runway Gen-3 Alpha (AI Video)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Design & Content Creation</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Canva (Slides, Visuals, Brand Assets)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Canva AI (Bulk Create, Image & Video Assist)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Wix (Website Builder)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Adobe Creative Cloud (Photoshop, Illustrator, Premiere Pro)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Video & Multimedia Production</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Camtasia (Screen Recording & Video Editing)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Video Editing Tools (Storyboarding, Cuts, Audio Sync)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Project & Work Management</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Asana (Project & Task Management)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Airtable (Work Management & Automation)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Automation & Workflows</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Zapier (No-code Automation)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">n8n (Workflow Orchestration)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI Automation Tools (Cross-stack Workflow Automation)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">AI Sales Tools</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Letter AI (AI Sales Messaging & Email Personalization)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI Sales Tools (Intent Scoring, Call Coaching, Email Personalization)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Learning Experience & Coaching</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Micro-learning Production (Video & Voiceover)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">In-flow Coaching & Just-in-time Guidance (Slack, Salesforce)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Creative, Audio & Music</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">AI Music Labs (AI-assisted Music Creation)</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">SoundCloud (Publishing & Distribution)</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-brand-accent mb-2">Productivity & Office</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Microsoft Office Suite</span>
+                                    <span class="px-3 py-1 bg-slate-700 rounded-md text-slate-300 hover:bg-brand-primary hover:text-white transition cursor-default">Google Workspace (Docs, Slides, Drive)</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
